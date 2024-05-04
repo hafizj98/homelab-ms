@@ -18,7 +18,7 @@ app.listen(port, () => {
   console.log(`Microservice listening at port ${port}`);
 });
 
-app.get('/hello-ms', (req, res) => {
+app.get('/homelab', (req, res) => {
   res.send('Hello, MS!');
 });
 
